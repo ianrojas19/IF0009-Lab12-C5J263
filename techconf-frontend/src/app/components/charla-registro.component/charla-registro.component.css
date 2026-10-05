@@ -1,0 +1,22 @@
+.container { display: flex; gap: 2rem; padding: 2rem; font-family: sans-serif; }
+.form-section { flex: 1; padding: 1.5rem; background: #f9f9f9; border-radius: 8px; }
+.list-section { flex: 1; padding: 1.5rem; }
+.form-group { margin-bottom: 1rem; }
+.form-group label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+input, select { width: 100%; padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; }
+.error, .error-sm, .general-error, .inline-error { color: #d32f2f; font-size: 0.85rem; margin-top: 0.25rem; }
+.general-error { margin-bottom: 1rem; font-weight: bold; }
+.submit-btn { background: #007bff; color: white; padding: 0.75rem 1.5rem; border: none; border-radius: 4px; cursor: pointer; margin-top: 1rem; }
+.submit-btn:disabled { background: #ccc; cursor: not-allowed; }
+.btn-secondary { background: #6c757d; color: white; padding: 0.5rem 1rem; border: none; border-radius: 4px; cursor: pointer; margin-top: 0.5rem; }
+.btn-danger { background: #dc3545; color: white; border: none; border-radius: 4px; cursor: pointer; padding: 0.5rem 1rem; margin-left: 0.5rem; }
+.fechas-container { display: flex; gap: 1rem; }
+.tags-section { border: 1px solid #eee; padding: 1rem; margin-bottom: 1rem; border-radius: 4px; }
+.dynamic-row { display: flex; align-items: center; margin-bottom: 0.5rem; }
+.card-grid { display: grid; gap: 1rem; }
+.card { border: 1px solid #ddd; padding: 1rem; border-radius: 8px; background: white; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+.tag-badge { background: #17a2b8; color: white; padding: 0.2rem 0.5rem; border-radius: 12px; font-size: 0.8rem; margin-right: 0.3rem; display: inline-block; }
+.asistente-form { margin-top: 1rem; padding: 1rem; background: #f0f8ff; border-radius: 6px; }
+.asistente-form input { margin-bottom: 0.5rem; }
+.btn-sm { background: #28a745; color: white; padding: 0.4rem 0.8rem; border: none; border-radius: 4px; cursor: pointer; }
+.btn-sm:disabled { background: #ccc; }
